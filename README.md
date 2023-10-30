@@ -16,7 +16,7 @@ one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,
 We can prove this through contridiction
 
 Let $A$ and $B$ both be graphs, and $A$ = $(V_1, E_1)$, $B$ = $(V_2, E_2)$
-Say that $A$ contains 5 nodes, while $B$ contains 6.
+Say that $A$ continas fewer nodes than $B$.
 Let $f$ be the bijective transformation $f: V_1 \rightarrow V_2$ such that $(u,v)
 \in E_1$ iff $(f(u),f(v)) \in E_2$, since this function is bijective it is both one to one and onto.
 Then if we take the map of $V_1 \rightarrow V_2$ we can see that there will be shared solutions as $A$ contains fewer nodes than $B$.
